@@ -4,13 +4,15 @@
   "description": "",
   "license": "ISC",
   "author": "",
-  "type": "commonjs",
-  "main": "arrays.js",
+  "type": "module",
+  "main": "spread_Operator.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "node spread_Operator.js"
   },
   "dependencies": {
+     
+    "lodash": "^4.18.1",
     "prompt-sync": "^4.2.0"
   }
 }

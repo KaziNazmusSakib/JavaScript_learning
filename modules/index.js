@@ -358,5 +358,6 @@
 // import { arrayExamples } from "./arrays";
 // arrayExamples();
 
-let a = ["apple", "banana", "cherry"];
-console.log(a);
+// let a = ["apple", "banana", "cherry"];
+// console.log(a);
+ 
