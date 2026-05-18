@@ -5,10 +5,10 @@
   "license": "ISC",
   "author": "",
   "type": "module",
-  "main": "spread_Operator.js",
+  "main": "insert_array.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node spread_Operator.js"
+    "start": "node insert_array.js"
   },
   "dependencies": {
      
