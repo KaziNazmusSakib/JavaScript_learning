@@ -5,10 +5,10 @@
   "license": "ISC",
   "author": "",
   "type": "module",
-  "main": "insert_array.js",
+  "main": "array.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node insert_array.js"
+    "start": "node  array.js"
   },
   "dependencies": {
      
