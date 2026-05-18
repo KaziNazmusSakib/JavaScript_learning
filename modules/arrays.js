@@ -53,5 +53,9 @@
 //   }
 
 
-let a = ["apple", "banana", "cherry"];
-console.log(a);
+// let a = ["apple", "banana", "cherry"];
+// console.log(a);
+
+//delete the array element
+
+ 
