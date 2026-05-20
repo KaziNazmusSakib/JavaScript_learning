@@ -58,4 +58,25 @@
 
 //delete the array element
 
- 
+let arrs = [1, 2, 3, 4, 5, 6]
+
+// find out indices that sums up to 7
+
+const targetsum = 7;
+let hasGotAns = false;
+
+for ( let i = 0 ;  i < arrs.length; i++ )
+{
+     for ( let j = i + 1; j < arrs.length ; j++){
+         if(arrs[i] + arrs[j] === targetsum){
+             hasGotAns = true
+             console.log(i, j)
+             break;
+         }
+         
+     }
+     if (hasGotAns){
+         break;
+     }
+     
+} 
