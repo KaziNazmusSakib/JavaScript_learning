@@ -5,10 +5,10 @@
   "license": "ISC",
   "author": "",
   "type": "module",
-  "main": "delete_array.js",
+  "main":  "arrays.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node  delete_array.js"
+    "start": "node  arrays.js"
   },
   "dependencies": {
      
