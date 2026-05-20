@@ -35,3 +35,22 @@
 
 // console.log(res);
 
+// 4. Using array every() method
+
+// const compareFunc = (a , b) => 
+//     a.length === b.length &&
+//     a.every((element, index) => element === b[index]) 
+
+// let a = [1, 2, 3, 4, 5];
+// let b = [1, 2, 3, 4, 5];
+
+// console.log(compareFunc(a, b));
+
+// const isBelowThreshold = (currentValue) =>  currentValue < 40;
+
+// let a1 = [10, 30, 39,36] ;
+
+// console.log(a1.every(isBelowThreshold));
+
+
+
