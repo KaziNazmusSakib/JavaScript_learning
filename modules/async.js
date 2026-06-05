@@ -48,3 +48,32 @@
 //   }
 // });
 
+
+// const fetchPromise = fetch(
+//   "https://mdn.github.io/learning-area/javascript/apis/fetching-data/can-store/products.json",
+// );
+
+// console.log(fetchPromise);
+// fetchPromise.then((response) => {
+//   console.log(`Recieved response: ${response.status}`);
+// });
+
+// console.log("started request...");
+
+
+// function resolveAfter2Second() {
+//   return new Promise((resolve) => {
+//      setTimeout(() => {
+//         resolve("resolved")
+//      }, 2000); 
+//     },2000);  
+// } 
+
+// async function  asyncCall () {
+//   console.log("Calling");
+//   const result =await resolveAfter2Second();
+//   console.log(result);
+// };
+
+// asyncCall();
+
