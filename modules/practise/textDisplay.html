@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML onclick event attribute</title>
+  <style>
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: sans-serif;
+    }
+  </style>
+</head>
+<body>
+    <h3>HTML onClick Event Attribute</h3>
+
+     <p id="geeks" onclick="onclick_event()"> Click Here </p>
+     <script>
+        function onclick_event() {
+            document.getElementById('geeks').innerHTML = "Welcome to GeeksforGeeks!";
+        }
+     </script>
+</body>
+
+</html>
+

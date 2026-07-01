@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML onclick Event Attribute</title>
+  <style>
+      body{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          flex-direction: column;
+          font-family: sans-serif;
+      }
+
+      h2 {
+        color: rgb(0, 128, 0);
+      }
+  </style>  
+</head>
+<body>
+  <h1>Check the console for the message! </h1>
+  <h2>GeeksforGeeks</h2>
+  <h3>HTML onClick Event Attribute</h3>
+  <span>
+    Click the button to see the date & time.
+  </span>
+  <button onclick="getElementById('time').innerHTML=Date()">Show Date</button>
+  <p id="time"></p> 
+
+  <button onlick="alert('Button Clicked!')"> Click Here </button>
+</body>
+</html>
